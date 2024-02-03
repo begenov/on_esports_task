@@ -43,7 +43,7 @@ go run cmd/main.go
 
 ### Polls
 
-- `!poll create "Poll Title" "Option 1" "Option 2" ...`: Create a new poll with the specified answer options.
+- `!poll create "Poll Title" | "Option 1" "Option 2" ...`: Create a new poll with the specified answer options.
 - `!poll vote <poll_number> <option_number>`: Vote for the selected option in the poll.
 - `!poll result <poll_number>`: View the results of a specific poll.
 
